@@ -78,6 +78,7 @@ include "%L"
 <Multi_key> <F12> <d>          : "∂"
 <Multi_key> <F12> <D>          : "∆"
 <Multi_key> <F12> <exclam> <D> : "∇"
+<Multi_key> <F12> <l>          : "ℓ"
  
 <Multi_key> <F12> <E>          : "∃"
 <Multi_key> <F12> <slash> <E>  : "∄"
