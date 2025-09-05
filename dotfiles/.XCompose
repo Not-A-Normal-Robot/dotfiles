@@ -117,7 +117,7 @@ include "%L"
 <Multi_key> <F12> <bar> <bar>         : "∥"
 <Multi_key> <F12> <slash> <bar> <bar> : "∦"
  
-<Multi_key> <F12> <period> <space>       : "∙"
+<Multi_key> <F12> <period> <space>       : "⋅"
 <Multi_key> <F12> <period> <period>      : "⋯"
 <Multi_key> <F12> <period> <bar>         : "⋮"
 <Multi_key> <F12> <period> <slash>       : "⋰"
