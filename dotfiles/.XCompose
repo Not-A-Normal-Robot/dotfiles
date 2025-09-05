@@ -3,6 +3,8 @@
 include "%L"
 
 ## Arrows, math
+
+<Multi_key> <exclam> <space>: "¬"
  
 <Multi_key> <equal> <equal> <equal> : "≡"
 <Multi_key> <equal> <equal> <slash> : "≢"
