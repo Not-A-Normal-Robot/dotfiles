@@ -51,6 +51,7 @@ include "%L"
 <Multi_key> <F12> <minus>    : "−"
 <Multi_key> <F12> <asterisk> : "∗"
 <Multi_key> <F12> <o>        : "∘"
+<Multi_key> <F12> <8>        : "∞" U221E # INFINITY
  
 <Multi_key> <F12> <c>                          : "⊂"
 <Multi_key> <F12> <slash> <c>                  : "⊄"
