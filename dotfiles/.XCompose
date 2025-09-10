@@ -4,8 +4,10 @@ include "%L"
 
 ## Arrows, math
 
-<Multi_key> <exclam> <space>: "¬"   U00AC # NOT SIGN
- 
+<Multi_key> <exclam> <space> : "¬"   U00AC # NOT SIGN
+<Multi_key> <o> <plus>       : "⊕"   U2295 # CIRCLED PLUS
+<Multi_key> <O> <plus>       : "⨁"   U2A01 # N-ARY CIRCLED PLUS
+
 <Multi_key> <equal> <equal> <equal> : "≡"   U2261 # IDENTICAL TO
 <Multi_key> <equal> <equal> <slash> : "≢"   U2262 # NOT IDENTICAL TO
 <Multi_key> <equal> <equal> <tilde> : "≅"   U2245 # APPROXIMATELY EQUAL TO
