@@ -100,3 +100,4 @@ await-fin() {
     return $status
   fi
 }
+alias canon='cd $(realpath .)'
