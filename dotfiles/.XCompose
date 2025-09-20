@@ -10,7 +10,7 @@ include "%L"
 
 <Multi_key> <equal> <equal> <equal> : "≡"   U2261 # IDENTICAL TO
 <Multi_key> <equal> <equal> <slash> : "≢"   U2262 # NOT IDENTICAL TO
-<Multi_key> <equal> <equal> <tilde> : "≅"   U2245 # APPROXIMATELY EQUAL TO
+<Multi_key> <equal> <equal> <asciitilde> : "≅"   U2245 # APPROXIMATELY EQUAL TO
  
 <Multi_key> <Left> <Left>   : "←"   U2190 # LEFTWARDS ARROW
 <Multi_key> <Right> <Right> : "→"   U2192 # RIGHTWARDS ARROW
