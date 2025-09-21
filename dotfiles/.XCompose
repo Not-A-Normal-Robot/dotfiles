@@ -4,9 +4,20 @@ include "%L"
 
 ## Arrows, math
 
-<Multi_key> <exclam> <space> : "¬"   U00AC # NOT SIGN
-<Multi_key> <o> <plus>       : "⊕"   U2295 # CIRCLED PLUS
-<Multi_key> <O> <plus>       : "⨁"   U2A01 # N-ARY CIRCLED PLUS
+<Multi_key> <exclam> <space>      : "¬"   U00AC # NOT SIGN
+<Multi_key> <asciitilde> <space>  : "¬"   U00AC # NOT SIGN
+<Multi_key> <exclam> <asciitilde> : "¬"   U00AC # NOT SIGN
+<Multi_key> <asciitilde> <exclam> : "¬"   U00AC # NOT SIGN
+<Multi_key> <o> <plus>            : "⊕"   U2295 # CIRCLED PLUS
+<Multi_key> <O> <plus>            : "⨁"   U2A01 # N-ARY CIRCLED PLUS OPERATOR
+<Multi_key> <t> <f>               : "∴"   U2234 # THEREFORE
+<Multi_key> <T> <f>               : "∴"   U2234 # THEREFORE
+<Multi_key> <t> <F>               : "∴"   U2234 # THEREFORE
+<Multi_key> <T> <F>               : "∴"   U2234 # THEREFORE
+<Multi_key> <b> <c>               : "∵"   U2235 # BECAUSE
+<Multi_key> <B> <c>               : "∵"   U2235 # BECAUSE
+<Multi_key> <b> <C>               : "∵"   U2235 # BECAUSE
+<Multi_key> <B> <C>               : "∵"   U2235 # BECAUSE
 
 <Multi_key> <equal> <equal> <equal> : "≡"   U2261 # IDENTICAL TO
 <Multi_key> <equal> <equal> <slash> : "≢"   U2262 # NOT IDENTICAL TO
@@ -102,12 +113,14 @@ include "%L"
 <Multi_key> <F12> <plus> <U>          : "⋃"   U22C3 # N-ARY UNION
 <Multi_key> <F12> <plus> <exclam> <U> : "⋂"   U22C2 # N-ARY INTERSECTION
 <Multi_key> <F12> <exclam> <plus> <U> : "⋂"   U22C2 # N-ARY INTERSECTION
- 
-<Multi_key> <F12> <V>                 : "∨"   U2228 # LOGICAL OR
-<Multi_key> <F12> <exclam> <V>        : "∧"   U2227 # LOGICAL AND
-<Multi_key> <F12> <plus> <V>          : "⋁"   U22C1 # N-ARY LOGICAL OR
-<Multi_key> <F12> <plus> <exclam> <V> : "⋀"   U22C0 # N-ARY LOGICAL AND
-<Multi_key> <F12> <exclam> <plus> <V> : "⋀"   U22C0 # N-ARY LOGICAL AND
+
+<Multi_key> <F12> <exclam> <space>      : "¬"   U00AC # NOT SIGN
+<Multi_key> <F12> <exclam> <asciitilde> : "¬"   U00AC # NOT SIGN
+<Multi_key> <F12> <asciitilde>          : "¬"   U00AC # NOT SIGN
+<Multi_key> <F12> <v>                   : "∨"   U2228 # LOGICAL OR
+<Multi_key> <F12> <exclam> <v>          : "∧"   U2227 # LOGICAL AND
+<Multi_key> <F12> <V>                   : "⋁"   U22C1 # N-ARY LOGICAL OR
+<Multi_key> <F12> <exclam> <V>          : "⋀"   U22C0 # N-ARY LOGICAL AND
  
 <Multi_key> <F12> <greater> <greater> : "≫"   U226B # MUCH GREATER-THAN
 <Multi_key> <F12> <less> <less>       : "≪"   U226A # MUCH LESS-THAN
@@ -121,6 +134,9 @@ include "%L"
 <Multi_key> <F12> <slash> <bar> <bar> : "∦"   U2226 # NOT PARALLEL TO
  
 <Multi_key> <F12> <period> <space>       : "⋅"   U22C5 # DOT OPERATOR
+<Multi_key> <F12> <period> <caret>       : "∴"   U2234 # THEREFORE
+<Multi_key> <F12> <period> <v>           : "∵"   U2235 # BECAUSE
+<Multi_key> <F12> <period> <V>           : "∵"   U2235 # BECAUSE
 <Multi_key> <F12> <period> <period>      : "⋯"   U22EF # MIDLINE HORIZONTAL ELLIPSIS
 <Multi_key> <F12> <period> <bar>         : "⋮"   U22EE # VERTICAL ELLIPSIS
 <Multi_key> <F12> <period> <slash>       : "⋰"   U22F0 # UP RIGHT DIAGONAL ELLIPSIS
