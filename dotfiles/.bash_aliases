@@ -34,9 +34,7 @@ function rob() {
     local attempt=1
 
     while true; do
-        "$@"
-
-        if [ $? -eq 0 ]; then
+        if "$@"; then
              echo "rob: command succeeded on attempt $attempt" >&2
              return 0
         fi
