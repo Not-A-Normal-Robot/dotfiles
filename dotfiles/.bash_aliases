@@ -34,12 +34,15 @@ function rob() {
     local attempt=1
 
     while true; do
-        if "$@"; then
+        "$@"
+        local retcode=$?
+
+        if [ "$retcode" -eq 0 ]; then
              echo "rob: command succeeded on attempt $attempt" >&2
              return 0
         fi
 
-        echo "rob: attempt $attempt failed, retrying" >&2
+        echo "rob: attempt $attempt failed with return code $retcode, retrying" >&2
         sleep "$delay"
 
         ((attempt++))
