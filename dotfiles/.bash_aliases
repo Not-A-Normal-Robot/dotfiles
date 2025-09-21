@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 alias mysqlstart='sudo systemctl start mysql'
 alias smklogin='~/Code/Scripts/wifilogin.sh'
 alias autologin='~/Code/Scripts/autologin.sh'
@@ -15,10 +16,13 @@ alias time-curl='time curl -v --trace-time -H "Cache-Control: no-cache" -s -o /d
 alias cls=clear
 alias dusort='du -had1 | sort -rh'
 lysrc() {
-    lynx "https://google.com/search?q=$(echo "$*" | sed 's/ /+/g')"
+    lynx "https://lite.duckduckgo.com/lite/search?q=${*// /+}"
 }
 function cl() {
     cd "$@" && ls
+}
+function zl() {
+    z "$@" && ls
 }
 function rob() {
     if [ $# -eq 0 ]; then
@@ -43,6 +47,7 @@ function rob() {
         ((attempt++))
     done
 }
+# shellcheck disable=SC2154
 alias pullall='for d in */.git; do (cd "${d%/.git}" && echo "Updating $PWD" && git pull --ff-only); done'
 await-fin() {
   if [ $# -lt 1 ]; then
@@ -64,9 +69,11 @@ await-fin() {
     return 1
   fi
 
-  local proc_name=$(ps -p "$pid" -o comm= 2>/dev/null || echo "(unknown)")
+  local proc_name
+  proc_name=$(ps -p "$pid" -o comm= 2>/dev/null || echo "(unknown)")
 
-  local start_time=$(date +%s)
+  local start_time
+  start_time=$(date +%s)
 
   echo "awaiting end of process '$proc_name' (PID $pid)" >&2
   echo "start timestamp: $(date -u '+%Y-%m-%d %H:%M:%S')" >&2
