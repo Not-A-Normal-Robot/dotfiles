@@ -32,52 +32,52 @@ include "%L"
 <Multi_key> <equal> <equal> <slash> : "≢"   U2262 # NOT IDENTICAL TO
 <Multi_key> <equal> <equal> <asciitilde> : "≅"   U2245 # APPROXIMATELY EQUAL TO
  
-<Multi_key> <Left> <Left>   : "←"   U2190 # LEFTWARDS ARROW
-<Multi_key> <Right> <Right> : "→"   U2192 # RIGHTWARDS ARROW
-<Multi_key> <Up> <Up>       : "↑"   U2191 # UPWARDS ARROW
-<Multi_key> <Down> <Down>   : "↓"   U2193 # DOWNWARDS ARROW
-<Multi_key> <Left> <Right>  : "↔"   U2194 # LEFT RIGHT ARROW
-<Multi_key> <Right> <Left>  : "↔"   U2194 # LEFT RIGHT ARROW
-<Multi_key> <Up> <Down>     : "↕"   U2195 # UP DOWN ARROW
-<Multi_key> <Down> <Up>     : "↕"   U2195 # UP DOWN ARROW
+<Multi_key> <a> <Left> <Left>   : "←"   U2190 # LEFTWARDS ARROW
+<Multi_key> <a> <Right> <Right> : "→"   U2192 # RIGHTWARDS ARROW
+<Multi_key> <a> <Up> <Up>       : "↑"   U2191 # UPWARDS ARROW
+<Multi_key> <a> <Down> <Down>   : "↓"   U2193 # DOWNWARDS ARROW
+<Multi_key> <a> <Left> <Right>  : "↔"   U2194 # LEFT RIGHT ARROW
+<Multi_key> <a> <Right> <Left>  : "↔"   U2194 # LEFT RIGHT ARROW
+<Multi_key> <a> <Up> <Down>     : "↕"   U2195 # UP DOWN ARROW
+<Multi_key> <a> <Down> <Up>     : "↕"   U2195 # UP DOWN ARROW
  
-<Multi_key> <slash> <Left> <Left>   : "↚"   U219A # LEFTWARDS ARROW WITH STROKE
-<Multi_key> <slash> <Right> <Right> : "↛"   U219B # RIGHTWARDS ARROW WITH STROKE
-<Multi_key> <slash> <Up> <Up>       : "⤉"   U2909 # UPWARDS ARROW WITH HORIZONTAL STROKE
-<Multi_key> <slash> <Down> <Down>   : "⤈"   U2908 # DOWNWARDS ARROW WITH HORIZONTAL STROKE
-<Multi_key> <slash> <Left> <Right>  : "↮"   U21AE # LEFT RIGHT ARROW WITH STROKE
-<Multi_key> <slash> <Right> <Left>  : "↮"   U21AE # LEFT RIGHT ARROW WITH STROKE
+<Multi_key> <a> <slash> <Left> <Left>   : "↚"   U219A # LEFTWARDS ARROW WITH STROKE
+<Multi_key> <a> <slash> <Right> <Right> : "↛"   U219B # RIGHTWARDS ARROW WITH STROKE
+<Multi_key> <a> <slash> <Up> <Up>       : "⤉"   U2909 # UPWARDS ARROW WITH HORIZONTAL STROKE
+<Multi_key> <a> <slash> <Down> <Down>   : "⤈"   U2908 # DOWNWARDS ARROW WITH HORIZONTAL STROKE
+<Multi_key> <a> <slash> <Left> <Right>  : "↮"   U21AE # LEFT RIGHT ARROW WITH STROKE
+<Multi_key> <a> <slash> <Right> <Left>  : "↮"   U21AE # LEFT RIGHT ARROW WITH STROKE
 
-<Multi_key> <slash> <slash> <Left> <Left>   : "⇺"   U21FA # LEFTWARDS ARROW WITH DOUBLE VERTICAL STROKE
-<Multi_key> <slash> <slash> <Right> <Right> : "⇻"   U21FB # RIGHTWARDS ARROW WITH DOUBLE VERTICAL STROKE
-<Multi_key> <slash> <slash> <Up> <Up>       : "⇞"   U21DE # UPWARDS ARROW WITH DOUBLE STROKE
-<Multi_key> <slash> <slash> <Down> <Down>   : "⇟"   U21DF # DOWNWARDS ARROW WITH DOUBLE STROKE
-<Multi_key> <slash> <slash> <Left> <Right>  : "⇼"   U21FC # LEFT RIGHT ARROW WITH DOUBLE VERTICAL STROKE
+<Multi_key> <a> <slash> <slash> <Left> <Left>   : "⇺"   U21FA # LEFTWARDS ARROW WITH DOUBLE VERTICAL STROKE
+<Multi_key> <a> <slash> <slash> <Right> <Right> : "⇻"   U21FB # RIGHTWARDS ARROW WITH DOUBLE VERTICAL STROKE
+<Multi_key> <a> <slash> <slash> <Up> <Up>       : "⇞"   U21DE # UPWARDS ARROW WITH DOUBLE STROKE
+<Multi_key> <a> <slash> <slash> <Down> <Down>   : "⇟"   U21DF # DOWNWARDS ARROW WITH DOUBLE STROKE
+<Multi_key> <a> <slash> <slash> <Left> <Right>  : "⇼"   U21FC # LEFT RIGHT ARROW WITH DOUBLE VERTICAL STROKE
 
-<Multi_key> <Left> <bar>  : "⇤"   U21E4 # LEFTWARDS ARROW TO BAR
-<Multi_key> <Right> <bar> : "⇥"   U21E5 # RIGHTWARDS ARROW TO BAR
-<Multi_key> <Up> <bar>    : "⤒"   U2912 # UPWARDS ARROW TO BAR
-<Multi_key> <Down> <bar>  : "⤓"   U2913 # DOWNWARDS ARROW TO BAR
+<Multi_key> <a> <Left> <bar>  : "⇤"   U21E4 # LEFTWARDS ARROW TO BAR
+<Multi_key> <a> <Right> <bar> : "⇥"   U21E5 # RIGHTWARDS ARROW TO BAR
+<Multi_key> <a> <Up> <bar>    : "⤒"   U2912 # UPWARDS ARROW TO BAR
+<Multi_key> <a> <Down> <bar>  : "⤓"   U2913 # DOWNWARDS ARROW TO BAR
  
-<Multi_key> <bar> <Left>  : "↤"   U21A4 # LEFTWARDS ARROW FROM BAR
-<Multi_key> <bar> <Right> : "↦"   U21A6 # RIGHTWARDS ARROW FROM BAR
-<Multi_key> <bar> <Up>    : "↥"   U21A5 # UPWARDS ARROW FROM BAR
-<Multi_key> <bar> <Down>  : "↧"   U21A7 # DOWNWARDS ARROW FROM BAR
+<Multi_key> <a> <bar> <Left>  : "↤"   U21A4 # LEFTWARDS ARROW FROM BAR
+<Multi_key> <a> <bar> <Right> : "↦"   U21A6 # RIGHTWARDS ARROW FROM BAR
+<Multi_key> <a> <bar> <Up>    : "↥"   U21A5 # UPWARDS ARROW FROM BAR
+<Multi_key> <a> <bar> <Down>  : "↧"   U21A7 # DOWNWARDS ARROW FROM BAR
  
-<Multi_key> <equal> <Left> <Left>   : "⇐"   U21D0 # LEFTWARDS DOUBLE ARROW
-<Multi_key> <equal> <Right> <Right> : "⇒"   U21D2 # RIGHTWARDS DOUBLE ARROW
-<Multi_key> <equal> <Left> <Right>  : "⇔"   U21D4 # LEFT RIGHT DOUBLE ARROW
-<Multi_key> <equal> <Right> <Left>  : "⇔"   U21D4 # LEFT RIGHT DOUBLE ARROW
+<Multi_key> <a> <equal> <Left> <Left>   : "⇐"   U21D0 # LEFTWARDS DOUBLE ARROW
+<Multi_key> <a> <equal> <Right> <Right> : "⇒"   U21D2 # RIGHTWARDS DOUBLE ARROW
+<Multi_key> <a> <equal> <Left> <Right>  : "⇔"   U21D4 # LEFT RIGHT DOUBLE ARROW
+<Multi_key> <a> <equal> <Right> <Left>  : "⇔"   U21D4 # LEFT RIGHT DOUBLE ARROW
  
-<Multi_key> <slash> <equal> <Left> <Left>   : "⇍"   U21CD # LEFTWARDS DOUBLE ARROW WITH STROKE
-<Multi_key> <slash> <equal> <Right> <Right> : "⇏"   U21CF # RIGHTWARDS DOUBLE ARROW WITH STROKE
-<Multi_key> <slash> <equal> <Left> <Right>  : "⇎"   U21CE # LEFT RIGHT DOUBLE ARROW WITH STROKE
-<Multi_key> <slash> <equal> <Right> <Left>  : "⇎"   U21CE # LEFT RIGHT DOUBLE ARROW WITH STROKE
+<Multi_key> <a> <slash> <equal> <Left> <Left>   : "⇍"   U21CD # LEFTWARDS DOUBLE ARROW WITH STROKE
+<Multi_key> <a> <slash> <equal> <Right> <Right> : "⇏"   U21CF # RIGHTWARDS DOUBLE ARROW WITH STROKE
+<Multi_key> <a> <slash> <equal> <Left> <Right>  : "⇎"   U21CE # LEFT RIGHT DOUBLE ARROW WITH STROKE
+<Multi_key> <a> <slash> <equal> <Right> <Left>  : "⇎"   U21CE # LEFT RIGHT DOUBLE ARROW WITH STROKE
 
-<Multi_key> <equal> <slash> <Left> <Left>   : "⇍"   U21CD # LEFTWARDS DOUBLE ARROW WITH STROKE
-<Multi_key> <equal> <slash> <Right> <Right> : "⇏"   U21CF # RIGHTWARDS DOUBLE ARROW WITH STROKE
-<Multi_key> <equal> <slash> <Left> <Right>  : "⇎"   U21CE # LEFT RIGHT DOUBLE ARROW WITH STROKE
-<Multi_key> <equal> <slash> <Right> <Left>  : "⇎"   U21CE # LEFT RIGHT DOUBLE ARROW WITH STROKE
+<Multi_key> <a> <equal> <slash> <Left> <Left>   : "⇍"   U21CD # LEFTWARDS DOUBLE ARROW WITH STROKE
+<Multi_key> <a> <equal> <slash> <Right> <Right> : "⇏"   U21CF # RIGHTWARDS DOUBLE ARROW WITH STROKE
+<Multi_key> <a> <equal> <slash> <Left> <Right>  : "⇎"   U21CE # LEFT RIGHT DOUBLE ARROW WITH STROKE
+<Multi_key> <a> <equal> <slash> <Right> <Left>  : "⇎"   U21CE # LEFT RIGHT DOUBLE ARROW WITH STROKE
 
 <Multi_key> <caret> <n>      : "ⁿ"   U207F # SUPERSCRIPT LATIN SMALL LETTER N
 <Multi_key> <underscore> <k> : "ₖ"   U2096 # LATIN SUBSCRIPT SMALL LETTER K
