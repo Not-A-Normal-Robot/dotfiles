@@ -26,6 +26,22 @@ include "%L"
 <Multi_key> <Q> <e> <D>           : "∎"   U220E # END OF PROOF
 <Multi_key> <Q> <E> <d>           : "∎"   U220E # END OF PROOF
 <Multi_key> <Q> <E> <D>           : "∎"   U220E # END OF PROOF
+<Multi_key> <i> <n> <f>           : "∞"   U221E # INFINITY
+<Multi_key> <i> <n> <F>           : "∞"   U221E # INFINITY
+<Multi_key> <i> <N> <f>           : "∞"   U221E # INFINITY
+<Multi_key> <i> <N> <F>           : "∞"   U221E # INFINITY
+<Multi_key> <I> <n> <f>           : "∞"   U221E # INFINITY
+<Multi_key> <I> <n> <F>           : "∞"   U221E # INFINITY
+<Multi_key> <I> <N> <f>           : "∞"   U221E # INFINITY
+<Multi_key> <I> <N> <F>           : "∞"   U221E # INFINITY
+<Multi_key> <p> <r> <o>           : "∝"   U221D # PROPORTIONAL TO
+<Multi_key> <p> <r> <O>           : "∝"   U221D # PROPORTIONAL TO
+<Multi_key> <p> <R> <o>           : "∝"   U221D # PROPORTIONAL TO
+<Multi_key> <p> <R> <O>           : "∝"   U221D # PROPORTIONAL TO
+<Multi_key> <P> <r> <o>           : "∝"   U221D # PROPORTIONAL TO
+<Multi_key> <P> <r> <O>           : "∝"   U221D # PROPORTIONAL TO
+<Multi_key> <P> <R> <o>           : "∝"   U221D # PROPORTIONAL TO
+<Multi_key> <P> <R> <O>           : "∝"   U221D # PROPORTIONAL TO
 
 
 <Multi_key> <equal> <equal> <equal> : "≡"   U2261 # IDENTICAL TO
