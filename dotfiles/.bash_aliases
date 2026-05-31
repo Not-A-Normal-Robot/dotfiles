@@ -116,6 +116,7 @@ await-fin() {
 }
 alias canon='cd $(realpath .)'
 if ps -p $PPID -o comm= | grep -q "zed"; then
-    echo "Parent process is Zed"
-    alias git="echo do it in your terminal"
+    git() {
+        echo "do it in your terminal"
+    }
 fi
