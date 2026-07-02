@@ -13,6 +13,14 @@ alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 alias .......='cd ../../../../../..'
 alias ........='cd ../../../../../../..'
+alias ..2='cd ../..'
+alias ..3='cd ../../..'
+alias ..4='cd ../../../..'
+alias ..5='cd ../../../../..'
+alias ..6='cd ../../../../../..'
+alias ..7='cd ../../../../../../..'
+alias ..8='cd ../../../../../../../..'
+alias ..9='cd ../../../../../../../../..'
 alias techmino='git -C ~/Games/Blockstackers/Techmino checkout upstream/main && love ~/Games/Blockstackers/Techmino'
 alias time-curl='time curl -v --trace-time -H "Cache-Control: no-cache" -s -o /dev/null'
 alias cls=clear
@@ -120,3 +128,4 @@ if ps -p $PPID -o comm= | grep -q "zed"; then
         echo "do it in your terminal"
     }
 fi
+alias r='openssl rand -base64 48'
