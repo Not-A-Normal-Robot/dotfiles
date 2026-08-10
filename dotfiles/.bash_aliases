@@ -123,9 +123,5 @@ await-fin() {
   fi
 }
 alias canon='cd $(realpath .)'
-if ps -p $PPID -o comm= | grep -q "zed"; then
-    git() {
-        echo "do it in your terminal"
-    }
-fi
 alias r='openssl rand -base64 48'
+alias av1ify='for f in *.h264.mp4; do [ -f "$f" ] && ffmpeg -i "$f" -c:v libsvtav1 -preset 5 -crf 27 -pix_fmt yuv420p10le -c:a copy "${f%.h264.mp4}.av1.mp4"; done'
