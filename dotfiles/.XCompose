@@ -295,7 +295,7 @@ include "%L"
 <Multi_key> <F11> <Y> : "𝕐"   U1D550 # MATHEMATICAL DOUBLE-STRUCK CAPITAL Y
 <Multi_key> <F11> <Z> : "ℤ"   U2124 # DOUBLE-STRUCK CAPITAL Z
 
-## Based on Debian 13 default Xcompose
+## Greek, based on Debian 13 default Xcompose
 <Multi_key> <g> <A>			: "Α"	U0391 # GREEK CAPITAL LETTER ALPHA
 <Multi_key> <g> <a>			: "α"	U03B1 # GREEK SMALL LETTER ALPHA
 <Multi_key> <g> <B>			: "Β"	U0392 # GREEK CAPITAL LETTER BETA
@@ -393,3 +393,7 @@ include "%L"
 <Multi_key> <G> <y>			: "ψ"	U03C8 # GREEK SMALL LETTER PSI
 <Multi_key> <G> <Z>			: "Ζ"	U0396 # GREEK CAPITAL LETTER ZETA
 <Multi_key> <G> <z>			: "ζ"	U03B6 # GREEK SMALL LETTER ZETA
+
+## Misc
+
+<Multi_key> <r> <e> <p>			: "�"   UFFFD # REPLACEMENT CHARACTER

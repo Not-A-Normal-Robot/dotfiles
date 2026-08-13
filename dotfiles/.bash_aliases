@@ -125,3 +125,34 @@ await-fin() {
 alias canon='cd $(realpath .)'
 alias r='openssl rand -base64 48'
 alias av1ify='for f in *.h264.mp4; do [ -f "$f" ] && ffmpeg -i "$f" -c:v libsvtav1 -preset 5 -crf 27 -pix_fmt yuv420p10le -c:a copy "${f%.h264.mp4}.av1.mp4"; done'
+man() {
+    # Begin blinking text mode: bold red
+    # Begin bold text mode: bold red
+    # End mb/md/etc. formatting
+    # End standout mode
+    # Begin standout mode (search results): yellow fg, blue bg
+    # End underline mode
+    # Begin underline mode: underline and bold green
+    # Begin reverse-video mode
+    # Begin dim mode
+    # Begin subscript mode (unsupported?)
+    # Begin subscript mode (unsupported?)
+    # Begin subscript mode (unsupported?)
+    # Begin subscript mode (unsupported?)
+
+    LESS_TERMCAP_mb=$(tput bold; tput setaf 1) \
+    LESS_TERMCAP_md=$(tput bold; tput setaf 1) \
+    LESS_TERMCAP_me=$(tput sgr0) \
+    LESS_TERMCAP_se=$(tput sgr0) \
+    LESS_TERMCAP_so=$(tput bold; tput setaf 3; tput setab 4) \
+    LESS_TERMCAP_ue=$(tput sgr0) \
+    LESS_TERMCAP_us=$(tput smul; tput bold; tput setaf 2) \
+    LESS_TERMCAP_mr=$(tput rev) \
+    LESS_TERMCAP_mh=$(tput dim) \
+    LESS_TERMCAP_ZN=$(tput ssubm) \
+    LESS_TERMCAP_ZV=$(tput rsubm) \
+    LESS_TERMCAP_ZO=$(tput ssupm) \
+    LESS_TERMCAP_ZW=$(tput rsupm) \
+    GROFF_NO_SGR=1 \
+    command man "$@"
+}
