@@ -156,3 +156,4 @@ man() {
     GROFF_NO_SGR=1 \
     command man "$@"
 }
+alias trt=techmino-replay-toolkit
